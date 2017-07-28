@@ -1,7 +1,7 @@
 
 <?php 
-use \App\Event_type;
-use \App\Department;
+use App\Event_type;
+use App\Department;
  ?>
 @extends('Layout.header')
 @section('header')
