@@ -80,10 +80,11 @@ use \App\User;
 
 <br>
         <button type="Submit" class="btn btn-success btn-large">Register</button>
-    <br><br>
+    <br>
      </div>
     
    </div>
+   <h5 class="" style="color: red;margin-left: 50px;margin-top: 15px;">* Account will be activated after Admin's approval....</h5>
 {!! Form::close() !!}
 </div>
   {!! Html::script('plugins/jQuery/jquery-2.2.3.min.js') !!}

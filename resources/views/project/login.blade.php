@@ -44,12 +44,12 @@ use App\User;
 
    <div class="form-group">
         
-        <input name = "email" type="email" class="form-control" id="email" placeholder="Email">
+        <input name = "email" type="email" class="form-control" id="email" placeholder="Email" value="admin@web.com">
     </div>
 <br>
   
          <div class="form-group">
-        <input name = "password" type="password" class="form-control" id="pwd" placeholder="Password">
+        <input name = "password" type="password" class="form-control" id="pwd" placeholder="Password" value="1234">
    </div>
 
 
@@ -79,7 +79,8 @@ use App\User;
 </div>
 </div>
 </div>
-
+<h5 class="" style="color: #555;margin-left: 500px;margin-top: 15px;">* Login : <br>
+Admin username: admin@web.com<br>Super Admin username: super_admin@web.com<br>Student: student@web.com<br>Password for all : 1234</h5>
   {!! Html::script('plugins/jQuery/jquery-2.2.3.min.js') !!}
   {!! Html::style('bootstrap/js/bootstrap.min.js') !!}
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
