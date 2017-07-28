@@ -66,7 +66,7 @@ class AuthController extends Controller
  public function Register(){
         $dept = DB::table('department')->get();
         $user_type = DB::table('user_type')->get();
-         return view('project.register')
+         return view('project.Register')
                 ->with('user_types',$user_type)
                 ->with('depts',$dept);
    }
