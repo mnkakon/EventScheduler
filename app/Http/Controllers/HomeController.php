@@ -94,10 +94,12 @@ $ldate = date('Y-m-d H:i:s');
     $user = Auth::user();
     $dept= $user->dept_id;
     $iid =$user->id;
+
     $subscribed = DB::table('subscription')
                     ->where('user_id',$user->id)
                     ->get();
-        $top_event = DB::table('event')
+
+    $top_event = DB::table('event')
         ->join('subscription', function ($join) {
             date_default_timezone_set('Asia/Dhaka');
             $ldate = date('Y-m-d H:i:s');
