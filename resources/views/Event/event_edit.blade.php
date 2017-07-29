@@ -18,7 +18,7 @@
        <div class="title_form">
         <div class="row">
       <div class="col-md-8">
-       <input type="text" class="form-control" name="title" maxlength="80"  placeholder="Title of event..."  value="{{$events->title}}" >
+       <input type="text" class="form-control" name="title" maxlength="80"  placeholder="Title of event..."  value="{{$events->title}}" required>
        </div>
        </div>
        </div>
@@ -27,7 +27,7 @@
        <div class="form-group"">
         <div class="row">
       <div class="col-md-8">
-       <textarea class="form-control" name="event_detail" rows="7" cols="1" placeholder="Details about event..." id="comment">{{$events->description}} </textarea>
+       <textarea class="form-control" name="event_detail" rows="7" cols="1" placeholder="Details about event..." id="comment" required>{{$events->description}} </textarea>
        </div>
        </div></div>
   
@@ -41,7 +41,7 @@
    <input type="datetime-local"" name="start_time" value="{{$events->start_time}}">
 
    <label>End Time: </label>
-   <input type="datetime-local"" name="end_time" value="{{$events->end_time}}">
+   <input type="datetime-local"" name="end_time" value="{{$events->end_time}}" required>
    <hr><hr>
       <div class="csc">
       <div class="row">

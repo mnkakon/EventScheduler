@@ -16,7 +16,7 @@ $userRole = User::find($uI);
       <div class="col-md-10">
        
        <div class="input-group input-group-sm">
-                <input type="text" class="form-control" name="event_type" maxlength="80"  placeholder="Add New Event Type...">
+                <input type="text" class="form-control" name="event_type" maxlength="80"  placeholder="Add New Event Type..." required>
                     <span class="input-group-btn">
                       <button type="submit" class="btn btn-info btn-flat">Create Event Type!</button>
                     </span>

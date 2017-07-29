@@ -18,7 +18,7 @@
        <div class="title_form">
         <div class="row">
       <div class="col-md-10">
-       <input type="text" class="form-control" name="title" maxlength="80"  placeholder="Title of event...">
+       <input type="text" class="form-control" name="title" maxlength="80"  placeholder="Title of event..." required>
        </div>
        </div>
        </div>
@@ -27,7 +27,7 @@
        <div class="form-group"">
         <div class="row">
       <div class="col-md-10">
-       <textarea class="form-control" name="event_detail" rows="7" cols="1" placeholder="Details about event..." id="comment"></textarea>
+       <textarea class="form-control" name="event_detail" rows="7" cols="1" placeholder="Details about event..." id="comment" required></textarea>
        </div>
        </div></div>
   
@@ -44,7 +44,7 @@
      </div>
      <div class="col-md-5">
        <label>End Time: </label>
-   <input type="datetime-local"" name="end_time">
+   <input type="datetime-local"" name="end_time" required>
      </div>
     
    </div>

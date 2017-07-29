@@ -17,8 +17,8 @@ $userRole = User::find($uI);
       <div class="col-md-9 col-md-offset-1">
        
        
-                <input type="text" class="form-control" name="dept_name" maxlength="80"  placeholder="Add New Event Department...">
-              <br>  <input type="text" class="form-control" name="dept_code" maxlength="80"  placeholder="Add Department Code...">
+                <input type="text" class="form-control" name="dept_name" maxlength="80"  placeholder="Add New Event Department..." required>
+              <br>  <input type="text" class="form-control" name="dept_code" maxlength="80"  placeholder="Add Department Code..." required>
                     <br>
                       <button type="submit" class="btn btn-info btn-flat">Add New Department!</button>
                    
