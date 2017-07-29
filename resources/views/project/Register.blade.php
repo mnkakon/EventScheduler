@@ -42,15 +42,15 @@ use \App\User;
       <h1>Create an account</h1>
           <h4>It's free and always will be</h4 ><br>
     
-       <input type="text" class="form-control" name="name" maxlength="80" placeholder="First Name">
+       <input type="text" class="form-control" name="name" maxlength="80" placeholder="First Name" required>
        
        <br>
      
-       <input type="email" class="form-control" name="email" maxlength="80"  placeholder="Email address">
+       <input type="email" class="form-control" name="email" maxlength="80"  placeholder="Email address" required>
        <br>
         
      
-       <input type="password" class="form-control" name="password" maxlength="80" placeholder="Password">
+       <input type="password" class="form-control" name="password" maxlength="80" placeholder="Password" required>
        
 
     <br>
@@ -61,7 +61,7 @@ use \App\User;
 
 
 
-   <input type="text" class="form-control" name="contact_no" maxlength="800" placeholder="Contact Number"> <br>
+   <input type="text" class="form-control" name="contact_no" maxlength="800" placeholder="Contact Number" required> <br>
  
 
     <h4>Department:</h4>
