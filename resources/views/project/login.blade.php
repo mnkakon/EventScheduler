@@ -44,7 +44,7 @@ use App\User;
 
    <div class="form-group">
         
-        <input name = "email" type="email" class="form-control" id="email" placeholder="Email" value="admin@web.com">
+        <input name = "email" type="email" class="form-control" id="email" placeholder="Email" value="student@web.com">
     </div>
 <br>
   
